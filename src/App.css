@@ -1,0 +1,89 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url('Images/canyonland.jpg');
+  background-size: cover;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+
+td {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-family: 'Schoolbell', cursive;
+  font-size: 40px;
+}
+
+tr:nth-child(1) td:nth-child(1) {
+  border-right: 4px solid #f1d2b1;
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(1) td:nth-child(2) {
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(1) td:nth-child(3) {
+  border-left: 4px solid #f1d2b1;
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(2) td:nth-child(1) {
+  border-right: 4px solid #f1d2b1;
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+  border-right: 4px solid #f1d2b1;
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(2) td:nth-child(3) {
+  border-bottom: 4px solid #f1d2b1;
+}
+
+tr:nth-child(3) td:nth-child(1) {
+  border-right: 4px solid #f1d2b1;
+}
+
+tr:nth-child(3) td:nth-child(2) {
+  border-right: 4px solid #f1d2b1
+}
+
+h1 {
+  text-align: center;
+  color: #FB5D5C;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+  padding-bottom: .5em;
+}
+
+p {
+  color: #44D2C9;
+}
+
+.Message {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 40px;
+  color: #FB5D5C;
+  text-align: center;
+  padding-top: .10em;
+}
+
+td.X {
+  background: url('./oldRedJeep.jpg') no-repeat center/contain;
+  background-size: cover;
+}
+
+td.O {
+  background: url('./navalJeep.jpg') no-repeat center/contain;
+  background-size: cover;
+}
